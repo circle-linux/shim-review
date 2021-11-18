@@ -1,4 +1,4 @@
-FROM circlelinux/circlelinux-shim:8-15.4-4.1
+FROM rockylinux/rockylinux-shim:8-154.3
 
 ENV SHIM_VERSION 15.4-4.el8.1
 
