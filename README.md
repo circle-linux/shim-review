@@ -35,19 +35,19 @@ Circle Linux is a community enterprise operating system designed to be 100% bug-
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name:rouzer
+- Name:Rouzer Zhou
 - Position:Security Manager
 - Email address:rouzer@cclinux.org
 - PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:
-
+  https://github.com/circle-linux/shim-review/blob/master/rouzer.pub
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name:james
+- Name:James Xie
 - Position:Release Engineer
 - Email address:james@cclinux.org
 - PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:
-
+  https://github.com/circle-linux/shim-review/blob/master/james.pub
 -------------------------------------------------------------------------------
 Please create your shim binaries starting with the 15.4 shim release tar file:
 https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2
