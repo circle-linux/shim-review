@@ -1,4 +1,4 @@
-FROM almalinux:8
+FROM circlelinuxos/circlelinux:8.6
 
 ENV SHIM_VERSION 15.6-1.el8
 
