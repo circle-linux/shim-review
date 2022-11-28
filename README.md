@@ -20,7 +20,8 @@ Here's the template:
 -------------------------------------------------------------------------------
 ### What organization or people are asking to have this signed?
 -------------------------------------------------------------------------------
-Circle Enterprise Software Foundation
+Beijing Advanced Open Source Technology Co.,LTD
+Website:https://www.cclinux.org
 
 -------------------------------------------------------------------------------
 ### What product or service is this for?
