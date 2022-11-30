@@ -22,6 +22,7 @@ Here's the template:
 -------------------------------------------------------------------------------
 Beijing Advanced Open Source Technology Co.,LTD
 Website:https://www.cclinux.org
+The main business of the company is the maintenance of the circle linux.
 
 -------------------------------------------------------------------------------
 ### What product or service is this for?
