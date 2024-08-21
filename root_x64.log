@@ -1,80 +1,80 @@
 INFO buildroot.py:494:  Mock Version: 3.5
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG buildroot.py:687:  kernel version == 4.18.0-513.24.1.el8_9.x86_64
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/fstab
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/yum/yum.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf/dnf.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/log/yum.log
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG buildroot.py:687:  kernel version == 4.18.0-553.16.1.el8_10.x86_64
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/log/yum.log
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.zqwa8wyf', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-117160-78761/root', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.reuaf6d_', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-117160-78761/root
-DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-117160-78761/result
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/pki/mock
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/pki/mock
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-118306-81093/root', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-118306-81093/result
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/pki/mock
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/pki/mock
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf
 DEBUG package_manager.py:589:  configure DNF vars
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/installation-homedir
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/installation-homedir
-DEBUG package_manager.py:197:  ['/usr/bin/dnf', '--installroot', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'groupinstall', 'build']
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/installation-homedir
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/installation-homedir
+DEBUG package_manager.py:197:  ['/usr/bin/dnf', '--installroot', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'groupinstall', 'build']
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/usr/bin/dnf', '--installroot', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'groupinstall', 'build', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/mnt/compose/mock/dist-circle8-build-117160-78761/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/usr/bin/dnf', '--installroot', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'groupinstall', 'build', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/mnt/compose/mock/dist-circle8-build-118306-81093/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
 DEBUG util.py:443:  Unable to detect release version (use '--releasever' to specify release version)
 DEBUG util.py:443:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-DEBUG util.py:445:  Last metadata expiration check: 0:00:02 ago on Wed Jun 26 18:14:03 2024.
+DEBUG util.py:445:  Last metadata expiration check: 0:00:03 ago on Wed Aug 21 10:05:05 2024.
 DEBUG util.py:443:  No match for group package "module-build-macros"
 DEBUG util.py:443:  No match for group package "srpmproc"
 DEBUG util.py:445:  Dependencies resolved.
@@ -124,7 +124,7 @@ DEBUG util.py:445:   cpp                         x86_64 8.5.0-22.el8_10         
 DEBUG util.py:445:   cracklib                    x86_64 2.9.6-15.el8                    build  92 k
 DEBUG util.py:445:   cracklib-dicts              x86_64 2.9.6-15.el8                    build 4.0 M
 DEBUG util.py:445:   crypto-policies             noarch 20230731-1.git3177e06.el8       build  63 k
-DEBUG util.py:445:   curl                        x86_64 7.61.1-34.el8                   build 352 k
+DEBUG util.py:445:   curl                        x86_64 7.61.1-34.el8_10.2              build 353 k
 DEBUG util.py:445:   cyrus-sasl-lib              x86_64 2.1.27-6.el8_5                  build 122 k
 DEBUG util.py:445:   dwz                         x86_64 0.12-10.el8                     build 108 k
 DEBUG util.py:445:   efi-srpm-macros             noarch 3-3.el8                         build  21 k
@@ -159,10 +159,10 @@ DEBUG util.py:445:   guile                       x86_64 5:2.0.14-7.el8          
 DEBUG util.py:445:   ima-evm-utils               x86_64 1.3.2-12.el8                    build  63 k
 DEBUG util.py:445:   isl                         x86_64 0.16.1-6.el8                    build 834 k
 DEBUG util.py:445:   iso-codes                   noarch 3.79-2.el8                      build 3.4 M
-DEBUG util.py:445:   kernel-headers              x86_64 4.18.0-553.5.1.el8_10           build  12 M
+DEBUG util.py:445:   kernel-headers              x86_64 4.18.0-553.16.1.el8_10          build  12 M
 DEBUG util.py:445:   keyutils-libs               x86_64 1.5.10-9.el8                    build  33 k
-DEBUG util.py:445:   krb5-libs                   x86_64 1.18.2-27.el8_10                build 842 k
-DEBUG util.py:445:   less                        x86_64 530-2.el8_9                     build 163 k
+DEBUG util.py:445:   krb5-libs                   x86_64 1.18.2-29.el8_10                build 842 k
+DEBUG util.py:445:   less                        x86_64 530-3.el8_10                    build 163 k
 DEBUG util.py:445:   libacl                      x86_64 2.2.53-3.el8                    build  34 k
 DEBUG util.py:445:   libarchive                  x86_64 3.3.3-5.el8                     build 359 k
 DEBUG util.py:445:   libassuan                   x86_64 2.5.1-3.el8                     build  81 k
@@ -173,7 +173,7 @@ DEBUG util.py:445:   libblkid                    x86_64 2.32.1-46.el8           
 DEBUG util.py:445:   libcap                      x86_64 2.48-6.el8_9                    build  73 k
 DEBUG util.py:445:   libcap-ng                   x86_64 0.7.11-1.el8                    build  32 k
 DEBUG util.py:445:   libcom_err                  x86_64 1.45.6-5.el8                    build  48 k
-DEBUG util.py:445:   libcurl                     x86_64 7.61.1-34.el8                   build 303 k
+DEBUG util.py:445:   libcurl                     x86_64 7.61.1-34.el8_10.2              build 303 k
 DEBUG util.py:445:   libdb                       x86_64 5.3.28-42.el8_4                 build 750 k
 DEBUG util.py:445:   libdb-utils                 x86_64 5.3.28-42.el8_4                 build 149 k
 DEBUG util.py:445:   libedit                     x86_64 3.1-23.20170329cvs.el8          build 102 k
@@ -188,7 +188,7 @@ DEBUG util.py:445:   libipt                      x86_64 1.6.1-8.el8             
 DEBUG util.py:445:   libksba                     x86_64 1.3.5-9.el8_7                   build 133 k
 DEBUG util.py:445:   libmount                    x86_64 2.32.1-46.el8                   build 236 k
 DEBUG util.py:445:   libmpc                      x86_64 1.1.0-9.1.el8                   build  60 k
-DEBUG util.py:445:   libnghttp2                  x86_64 1.33.0-5.el8_9                  build  77 k
+DEBUG util.py:445:   libnghttp2                  x86_64 1.33.0-6.el8_10.1               build  77 k
 DEBUG util.py:445:   libnsl2                     x86_64 1.2.0-2.20180605git4a062cf.el8  build  56 k
 DEBUG util.py:445:   libpkgconf                  x86_64 1.4.2-1.el8                     build  34 k
 DEBUG util.py:445:   libpsl                      x86_64 0.20.2-6.el8                    build  60 k
@@ -203,7 +203,7 @@ DEBUG util.py:445:   libssh-config               noarch 0.9.6-14.el8            
 DEBUG util.py:445:   libstdc++                   x86_64 8.5.0-22.el8_10                 build 454 k
 DEBUG util.py:445:   libstdc++-devel             x86_64 8.5.0-22.el8_10                 build 2.1 M
 DEBUG util.py:445:   libtasn1                    x86_64 4.13-4.el8_7                    build  75 k
-DEBUG util.py:445:   libtirpc                    x86_64 1.1.4-10.el8                    build 112 k
+DEBUG util.py:445:   libtirpc                    x86_64 1.1.4-12.el8_10                 build 113 k
 DEBUG util.py:445:   libtool-ltdl                x86_64 2.4.6-25.el8                    build  57 k
 DEBUG util.py:445:   libunistring                x86_64 0.9.9-3.el8                     build 419 k
 DEBUG util.py:445:   libusbx                     x86_64 1.0.23-4.el8                    build  73 k
@@ -224,13 +224,13 @@ DEBUG util.py:445:   nettle                      x86_64 3.4.1-7.el8             
 DEBUG util.py:445:   npth                        x86_64 1.5-4.el8                       build  25 k
 DEBUG util.py:445:   ocaml-srpm-macros           noarch 5-4.el8                         build 8.3 k
 DEBUG util.py:445:   openblas-srpm-macros        noarch 2-2.el8                         build 6.8 k
-DEBUG util.py:445:   openldap                    x86_64 2.4.46-18.el8                   build 351 k
-DEBUG util.py:445:   openssh                     x86_64 8.0p1-24.el8                    build 524 k
-DEBUG util.py:445:   openssh-clients             x86_64 8.0p1-24.el8                    build 645 k
+DEBUG util.py:445:   openldap                    x86_64 2.4.46-19.el8_10                build 352 k
+DEBUG util.py:445:   openssh                     x86_64 8.0p1-25.el8_10                 build 525 k
+DEBUG util.py:445:   openssh-clients             x86_64 8.0p1-25.el8_10                 build 645 k
 DEBUG util.py:445:   openssl-libs                x86_64 1:1.1.1k-12.el8_9               build 1.5 M
 DEBUG util.py:445:   p11-kit                     x86_64 0.23.22-2.el8                   build 326 k
 DEBUG util.py:445:   p11-kit-trust               x86_64 0.23.22-2.el8                   build 137 k
-DEBUG util.py:445:   pam                         x86_64 1.3.1-33.el8                    build 745 k
+DEBUG util.py:445:   pam                         x86_64 1.3.1-34.el8_10                 build 745 k
 DEBUG util.py:445:   pcre                        x86_64 8.42-6.el8                      build 209 k
 DEBUG util.py:445:   pcre2                       x86_64 10.32-3.el8_6                   build 246 k
 DEBUG util.py:445:   perl-srpm-macros            noarch 1-25.el8                        build 9.7 k
@@ -238,7 +238,7 @@ DEBUG util.py:445:   pkgconf                     x86_64 1.4.2-1.el8             
 DEBUG util.py:445:   pkgconf-m4                  noarch 1.4.2-1.el8                     build  16 k
 DEBUG util.py:445:   pkgconf-pkg-config          x86_64 1.4.2-1.el8                     build  14 k
 DEBUG util.py:445:   platform-python             x86_64 3.6.8-62.el8_10.circle.1        build  88 k
-DEBUG util.py:445:   platform-python-setuptools  noarch 39.2.0-7.el8                    build 631 k
+DEBUG util.py:445:   platform-python-setuptools  noarch 39.2.0-8.el8_10                 build 631 k
 DEBUG util.py:445:   popt                        x86_64 1.18-1.el8                      build  60 k
 DEBUG util.py:445:   publicsuffix-list-dafsa     noarch 20180723-1.el8                  build  55 k
 DEBUG util.py:445:   python-rpm-macros           noarch 3-45.el8                        build  15 k
@@ -246,7 +246,7 @@ DEBUG util.py:445:   python-srpm-macros          noarch 3-45.el8                
 DEBUG util.py:445:   python3-libs                x86_64 3.6.8-62.el8_10.circle.1        build 7.8 M
 DEBUG util.py:445:   python3-pip-wheel           noarch 9.0.3-24.el8                    build 865 k
 DEBUG util.py:445:   python3-rpm-macros          noarch 3-45.el8                        build  14 k
-DEBUG util.py:445:   python3-setuptools-wheel    noarch 39.2.0-7.el8                    build 288 k
+DEBUG util.py:445:   python3-setuptools-wheel    noarch 39.2.0-8.el8_10                 build 288 k
 DEBUG util.py:445:   qt5-srpm-macros             noarch 5.15.3-1.el8                    build 9.5 k
 DEBUG util.py:445:   readline                    x86_64 7.0-10.el8                      build 198 k
 DEBUG util.py:445:   rpm                         x86_64 4.14.3-31.el8                   build 543 k
@@ -255,7 +255,7 @@ DEBUG util.py:445:   rpm-libs                    x86_64 4.14.3-31.el8           
 DEBUG util.py:445:   rust-srpm-macros            noarch 5-2.el8                         build 8.1 k
 DEBUG util.py:445:   setup                       noarch 2.12.2-9.el8                    build 180 k
 DEBUG util.py:445:   sqlite-libs                 x86_64 3.26.0-19.el8_9                 build 580 k
-DEBUG util.py:445:   systemd-libs                x86_64 239-82.el8                      build 1.1 M
+DEBUG util.py:445:   systemd-libs                x86_64 239-82.el8_10.1                 build 1.1 M
 DEBUG util.py:445:   tpm2-tss                    x86_64 2.3.2-6.el8                     build 274 k
 DEBUG util.py:445:   tzdata                      noarch 2024a-1.el8                     build 474 k
 DEBUG util.py:445:   xml-common                  noarch 0.6.3-50.el8                    build  38 k
@@ -268,11 +268,11 @@ DEBUG util.py:445:   build
 DEBUG util.py:445:  Transaction Summary
 DEBUG util.py:445:  ================================================================================
 DEBUG util.py:445:  Install  180 Packages
-DEBUG util.py:445:  Total download size: 179 M
+DEBUG util.py:445:  Total download size: 180 M
 DEBUG util.py:445:  Installed size: 867 M
 DEBUG util.py:445:  Downloading Packages:
 DEBUG util.py:445:  --------------------------------------------------------------------------------
-DEBUG util.py:445:  Total                                           110 MB/s | 179 MB     00:01     
+DEBUG util.py:445:  Total                                           111 MB/s | 180 MB     00:01     
 DEBUG util.py:445:  Running transaction check
 DEBUG util.py:445:  Transaction check succeeded.
 DEBUG util.py:445:  Running transaction test
@@ -302,7 +302,7 @@ DEBUG util.py:445:    cpp-8.5.0-22.el8_10.x86_64
 DEBUG util.py:445:    cracklib-2.9.6-15.el8.x86_64                                                  
 DEBUG util.py:445:    cracklib-dicts-2.9.6-15.el8.x86_64                                            
 DEBUG util.py:445:    crypto-policies-20230731-1.git3177e06.el8.noarch                              
-DEBUG util.py:445:    curl-7.61.1-34.el8.x86_64                                                     
+DEBUG util.py:445:    curl-7.61.1-34.el8_10.2.x86_64                                                
 DEBUG util.py:445:    cyrus-sasl-lib-2.1.27-6.el8_5.x86_64                                          
 DEBUG util.py:445:    diffutils-3.6-6.el8.x86_64                                                    
 DEBUG util.py:445:    dwz-0.12-10.el8.x86_64                                                        
@@ -344,10 +344,10 @@ DEBUG util.py:445:    ima-evm-utils-1.3.2-12.el8.x86_64
 DEBUG util.py:445:    info-6.5-7.el8.x86_64                                                         
 DEBUG util.py:445:    isl-0.16.1-6.el8.x86_64                                                       
 DEBUG util.py:445:    iso-codes-3.79-2.el8.noarch                                                   
-DEBUG util.py:445:    kernel-headers-4.18.0-553.5.1.el8_10.x86_64                                   
+DEBUG util.py:445:    kernel-headers-4.18.0-553.16.1.el8_10.x86_64                                  
 DEBUG util.py:445:    keyutils-libs-1.5.10-9.el8.x86_64                                             
-DEBUG util.py:445:    krb5-libs-1.18.2-27.el8_10.x86_64                                             
-DEBUG util.py:445:    less-530-2.el8_9.x86_64                                                       
+DEBUG util.py:445:    krb5-libs-1.18.2-29.el8_10.x86_64                                             
+DEBUG util.py:445:    less-530-3.el8_10.x86_64                                                      
 DEBUG util.py:445:    libacl-2.2.53-3.el8.x86_64                                                    
 DEBUG util.py:445:    libarchive-3.3.3-5.el8.x86_64                                                 
 DEBUG util.py:445:    libassuan-2.5.1-3.el8.x86_64                                                  
@@ -358,7 +358,7 @@ DEBUG util.py:445:    libblkid-2.32.1-46.el8.x86_64
 DEBUG util.py:445:    libcap-2.48-6.el8_9.x86_64                                                    
 DEBUG util.py:445:    libcap-ng-0.7.11-1.el8.x86_64                                                 
 DEBUG util.py:445:    libcom_err-1.45.6-5.el8.x86_64                                                
-DEBUG util.py:445:    libcurl-7.61.1-34.el8.x86_64                                                  
+DEBUG util.py:445:    libcurl-7.61.1-34.el8_10.2.x86_64                                             
 DEBUG util.py:445:    libdb-5.3.28-42.el8_4.x86_64                                                  
 DEBUG util.py:445:    libdb-utils-5.3.28-42.el8_4.x86_64                                            
 DEBUG util.py:445:    libedit-3.1-23.20170329cvs.el8.x86_64                                         
@@ -373,7 +373,7 @@ DEBUG util.py:445:    libipt-1.6.1-8.el8.x86_64
 DEBUG util.py:445:    libksba-1.3.5-9.el8_7.x86_64                                                  
 DEBUG util.py:445:    libmount-2.32.1-46.el8.x86_64                                                 
 DEBUG util.py:445:    libmpc-1.1.0-9.1.el8.x86_64                                                   
-DEBUG util.py:445:    libnghttp2-1.33.0-5.el8_9.x86_64                                              
+DEBUG util.py:445:    libnghttp2-1.33.0-6.el8_10.1.x86_64                                           
 DEBUG util.py:445:    libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64                                 
 DEBUG util.py:445:    libpkgconf-1.4.2-1.el8.x86_64                                                 
 DEBUG util.py:445:    libpsl-0.20.2-6.el8.x86_64                                                    
@@ -388,7 +388,7 @@ DEBUG util.py:445:    libssh-config-0.9.6-14.el8.noarch
 DEBUG util.py:445:    libstdc++-8.5.0-22.el8_10.x86_64                                              
 DEBUG util.py:445:    libstdc++-devel-8.5.0-22.el8_10.x86_64                                        
 DEBUG util.py:445:    libtasn1-4.13-4.el8_7.x86_64                                                  
-DEBUG util.py:445:    libtirpc-1.1.4-10.el8.x86_64                                                  
+DEBUG util.py:445:    libtirpc-1.1.4-12.el8_10.x86_64                                               
 DEBUG util.py:445:    libtool-ltdl-2.4.6-25.el8.x86_64                                              
 DEBUG util.py:445:    libunistring-0.9.9-3.el8.x86_64                                               
 DEBUG util.py:445:    libusbx-1.0.23-4.el8.x86_64                                                   
@@ -410,13 +410,13 @@ DEBUG util.py:445:    nettle-3.4.1-7.el8.x86_64
 DEBUG util.py:445:    npth-1.5-4.el8.x86_64                                                         
 DEBUG util.py:445:    ocaml-srpm-macros-5-4.el8.noarch                                              
 DEBUG util.py:445:    openblas-srpm-macros-2-2.el8.noarch                                           
-DEBUG util.py:445:    openldap-2.4.46-18.el8.x86_64                                                 
-DEBUG util.py:445:    openssh-8.0p1-24.el8.x86_64                                                   
-DEBUG util.py:445:    openssh-clients-8.0p1-24.el8.x86_64                                           
+DEBUG util.py:445:    openldap-2.4.46-19.el8_10.x86_64                                              
+DEBUG util.py:445:    openssh-8.0p1-25.el8_10.x86_64                                                
+DEBUG util.py:445:    openssh-clients-8.0p1-25.el8_10.x86_64                                        
 DEBUG util.py:445:    openssl-libs-1:1.1.1k-12.el8_9.x86_64                                         
 DEBUG util.py:445:    p11-kit-0.23.22-2.el8.x86_64                                                  
 DEBUG util.py:445:    p11-kit-trust-0.23.22-2.el8.x86_64                                            
-DEBUG util.py:445:    pam-1.3.1-33.el8.x86_64                                                       
+DEBUG util.py:445:    pam-1.3.1-34.el8_10.x86_64                                                    
 DEBUG util.py:445:    patch-2.7.6-11.el8.x86_64                                                     
 DEBUG util.py:445:    pcre-8.42-6.el8.x86_64                                                        
 DEBUG util.py:445:    pcre2-10.32-3.el8_6.x86_64                                                    
@@ -425,7 +425,7 @@ DEBUG util.py:445:    pkgconf-1.4.2-1.el8.x86_64
 DEBUG util.py:445:    pkgconf-m4-1.4.2-1.el8.noarch                                                 
 DEBUG util.py:445:    pkgconf-pkg-config-1.4.2-1.el8.x86_64                                         
 DEBUG util.py:445:    platform-python-3.6.8-62.el8_10.circle.1.x86_64                               
-DEBUG util.py:445:    platform-python-setuptools-39.2.0-7.el8.noarch                                
+DEBUG util.py:445:    platform-python-setuptools-39.2.0-8.el8_10.noarch                             
 DEBUG util.py:445:    popt-1.18-1.el8.x86_64                                                        
 DEBUG util.py:445:    publicsuffix-list-dafsa-20180723-1.el8.noarch                                 
 DEBUG util.py:445:    python-rpm-macros-3-45.el8.noarch                                             
@@ -433,7 +433,7 @@ DEBUG util.py:445:    python-srpm-macros-3-45.el8.noarch
 DEBUG util.py:445:    python3-libs-3.6.8-62.el8_10.circle.1.x86_64                                  
 DEBUG util.py:445:    python3-pip-wheel-9.0.3-24.el8.noarch                                         
 DEBUG util.py:445:    python3-rpm-macros-3-45.el8.noarch                                            
-DEBUG util.py:445:    python3-setuptools-wheel-39.2.0-7.el8.noarch                                  
+DEBUG util.py:445:    python3-setuptools-wheel-39.2.0-8.el8_10.noarch                               
 DEBUG util.py:445:    qt5-srpm-macros-5.15.3-1.el8.noarch                                           
 DEBUG util.py:445:    readline-7.0-10.el8.x86_64                                                    
 DEBUG util.py:445:    redhat-rpm-config-131-1.el8.noarch                                            
@@ -447,7 +447,7 @@ DEBUG util.py:445:    sed-4.5-5.el8.x86_64
 DEBUG util.py:445:    setup-2.12.2-9.el8.noarch                                                     
 DEBUG util.py:445:    shadow-utils-2:4.6-22.el8.x86_64                                              
 DEBUG util.py:445:    sqlite-libs-3.26.0-19.el8_9.x86_64                                            
-DEBUG util.py:445:    systemd-libs-239-82.el8.x86_64                                                
+DEBUG util.py:445:    systemd-libs-239-82.el8_10.1.x86_64                                           
 DEBUG util.py:445:    tar-2:1.30-9.el8.x86_64                                                       
 DEBUG util.py:445:    tpm2-tss-2.3.2-6.el8.x86_64                                                   
 DEBUG util.py:445:    tzdata-2024a-1.el8.noarch                                                     
@@ -463,7 +463,7 @@ DEBUG util.py:445:    zstd-1.4.4-1.el8.x86_64
 DEBUG util.py:445:  Complete!
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/os-release
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/os-release
 DEBUG util.py:622:  child environment: None
 DEBUG util.py:540:  Executing command: ['/usr/sbin/userdel', '-r', '-f', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:443:  userdel: user 'mockbuild' does not exist
@@ -478,35 +478,35 @@ DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
 DEBUG util.py:540:  Executing command: ['/usr/sbin/useradd', '-o', '-m', '-u', '993', '-g', '135', '-d', '/builddir', '-n', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/RPMS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/RPMS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SPECS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SPECS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SRPMS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SRPMS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SOURCES
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SOURCES
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILD
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILD
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILDROOT
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILDROOT
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/originals
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/originals
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/.initialized
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/RPMS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/RPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SPECS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SPECS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SRPMS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SRPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SOURCES
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SOURCES
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILD
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILD
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILDROOT
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILDROOT
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/originals
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/originals
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/.initialized
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/rpm', '-qa', '--root', '/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/rpm', '-qa', '--root', '/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:445:  crypto-policies-20230731-1.git3177e06.el8.noarch
-DEBUG util.py:445:  python3-setuptools-wheel-39.2.0-7.el8.noarch
+DEBUG util.py:445:  python3-setuptools-wheel-39.2.0-8.el8_10.noarch
 DEBUG util.py:445:  python-rpm-macros-3-45.el8.noarch
 DEBUG util.py:445:  tzdata-2024a-1.el8.noarch
 DEBUG util.py:445:  qt5-srpm-macros-5.15.3-1.el8.noarch
 DEBUG util.py:445:  pkgconf-m4-1.4.2-1.el8.noarch
 DEBUG util.py:445:  openblas-srpm-macros-2-2.el8.noarch
 DEBUG util.py:445:  ncurses-base-6.1-10.20180224.el8.noarch
-DEBUG util.py:445:  kernel-headers-4.18.0-553.5.1.el8_10.x86_64
+DEBUG util.py:445:  kernel-headers-4.18.0-553.16.1.el8_10.x86_64
 DEBUG util.py:445:  ghc-srpm-macros-1.4.2-7.el8.noarch
 DEBUG util.py:445:  circle-linux-release-8.10-1.el8.noarch
 DEBUG util.py:445:  setup-2.12.2-9.el8.noarch
@@ -553,7 +553,7 @@ DEBUG util.py:445:  libgomp-8.5.0-22.el8_10.x86_64
 DEBUG util.py:445:  brotli-1.0.6-3.el8.x86_64
 DEBUG util.py:445:  libatomic_ops-7.6.2-3.el8.x86_64
 DEBUG util.py:445:  libedit-3.1-23.20170329cvs.el8.x86_64
-DEBUG util.py:445:  libnghttp2-1.33.0-5.el8_9.x86_64
+DEBUG util.py:445:  libnghttp2-1.33.0-6.el8_10.1.x86_64
 DEBUG util.py:445:  pkgconf-1.4.2-1.el8.x86_64
 DEBUG util.py:445:  libxcrypt-devel-4.1.1-6.el8.x86_64
 DEBUG util.py:445:  libsigsegv-2.11-5.el8.x86_64
@@ -561,10 +561,10 @@ DEBUG util.py:445:  libsmartcols-2.32.1-46.el8.x86_64
 DEBUG util.py:445:  libverto-0.3.2-2.el8.x86_64
 DEBUG util.py:445:  openssl-libs-1.1.1k-12.el8_9.x86_64
 DEBUG util.py:445:  ca-certificates-2023.2.60_v7.0.306-80.0.el8_8.noarch
-DEBUG util.py:445:  krb5-libs-1.18.2-27.el8_10.x86_64
+DEBUG util.py:445:  krb5-libs-1.18.2-29.el8_10.x86_64
 DEBUG util.py:445:  libblkid-2.32.1-46.el8.x86_64
-DEBUG util.py:445:  systemd-libs-239-82.el8.x86_64
-DEBUG util.py:445:  platform-python-setuptools-39.2.0-7.el8.noarch
+DEBUG util.py:445:  systemd-libs-239-82.el8_10.1.x86_64
+DEBUG util.py:445:  platform-python-setuptools-39.2.0-8.el8_10.noarch
 DEBUG util.py:445:  python3-libs-3.6.8-62.el8_10.circle.1.x86_64
 DEBUG util.py:445:  gcc-8.5.0-22.el8_10.x86_64
 DEBUG util.py:445:  cracklib-2.9.6-15.el8.x86_64
@@ -575,9 +575,9 @@ DEBUG util.py:445:  annobin-11.13-2.el8.x86_64
 DEBUG util.py:445:  libusbx-1.0.23-4.el8.x86_64
 DEBUG util.py:445:  libbabeltrace-1.5.4-4.el8.x86_64
 DEBUG util.py:445:  util-linux-2.32.1-46.el8.x86_64
-DEBUG util.py:445:  openssh-clients-8.0p1-24.el8.x86_64
-DEBUG util.py:445:  openldap-2.4.46-18.el8.x86_64
-DEBUG util.py:445:  libcurl-7.61.1-34.el8.x86_64
+DEBUG util.py:445:  openssh-clients-8.0p1-25.el8_10.x86_64
+DEBUG util.py:445:  openldap-2.4.46-19.el8_10.x86_64
+DEBUG util.py:445:  libcurl-7.61.1-34.el8_10.2.x86_64
 DEBUG util.py:445:  git-core-2.43.5-1.el8_10.x86_64
 DEBUG util.py:445:  guile-2.0.14-7.el8.x86_64
 DEBUG util.py:445:  rpm-4.14.3-31.el8.x86_64
@@ -640,7 +640,7 @@ DEBUG util.py:445:  zstd-1.4.4-1.el8.x86_64
 DEBUG util.py:445:  nettle-3.4.1-7.el8.x86_64
 DEBUG util.py:445:  bzip2-1.0.6-26.el8.x86_64
 DEBUG util.py:445:  diffutils-3.6-6.el8.x86_64
-DEBUG util.py:445:  less-530-2.el8_9.x86_64
+DEBUG util.py:445:  less-530-3.el8_10.x86_64
 DEBUG util.py:445:  cpio-2.12-11.el8.x86_64
 DEBUG util.py:445:  gc-7.6.4-3.el8.x86_64
 DEBUG util.py:445:  libipt-1.6.1-8.el8.x86_64
@@ -652,7 +652,7 @@ DEBUG util.py:445:  libtool-ltdl-2.4.6-25.el8.x86_64
 DEBUG util.py:445:  ncurses-6.1-10.20180224.el8.x86_64
 DEBUG util.py:445:  coreutils-8.30-15.el8.x86_64
 DEBUG util.py:445:  libdb-5.3.28-42.el8_4.x86_64
-DEBUG util.py:445:  libtirpc-1.1.4-10.el8.x86_64
+DEBUG util.py:445:  libtirpc-1.1.4-12.el8_10.x86_64
 DEBUG util.py:445:  libmount-2.32.1-46.el8.x86_64
 DEBUG util.py:445:  libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64
 DEBUG util.py:445:  platform-python-3.6.8-62.el8_10.circle.1.x86_64
@@ -661,14 +661,14 @@ DEBUG util.py:445:  gzip-1.9-13.el8_5.x86_64
 DEBUG util.py:445:  cracklib-dicts-2.9.6-15.el8.x86_64
 DEBUG util.py:445:  libutempter-1.1.6-14.el8.x86_64
 DEBUG util.py:445:  ima-evm-utils-1.3.2-12.el8.x86_64
-DEBUG util.py:445:  pam-1.3.1-33.el8.x86_64
+DEBUG util.py:445:  pam-1.3.1-34.el8_10.x86_64
 DEBUG util.py:445:  gcc-plugin-annobin-8.5.0-22.el8_10.x86_64
 DEBUG util.py:445:  glib2-2.56.4-162.el8.x86_64
 DEBUG util.py:445:  libfdisk-2.32.1-46.el8.x86_64
-DEBUG util.py:445:  openssh-8.0p1-24.el8.x86_64
+DEBUG util.py:445:  openssh-8.0p1-25.el8_10.x86_64
 DEBUG util.py:445:  cyrus-sasl-lib-2.1.27-6.el8_5.x86_64
 DEBUG util.py:445:  libssh-0.9.6-14.el8.x86_64
-DEBUG util.py:445:  curl-7.61.1-34.el8.x86_64
+DEBUG util.py:445:  curl-7.61.1-34.el8_10.2.x86_64
 DEBUG util.py:445:  libdb-utils-5.3.28-42.el8_4.x86_64
 DEBUG util.py:445:  libarchive-3.3.3-5.el8.x86_64
 DEBUG util.py:445:  rpm-libs-4.14.3-31.el8.x86_64
@@ -680,438 +680,438 @@ DEBUG util.py:445:  gcc-c++-8.5.0-22.el8_10.x86_64
 DEBUG util.py:445:  make-4.2.1-11.el8.x86_64
 DEBUG util.py:596:  Child return code was: 0
 INFO backend.py:235:  Installed packages:
-INFO backend.py:236:  libacl-2.2.53-3.el8.x86_64
-pkgconf-m4-1.4.2-1.el8.noarch
-libsigsegv-2.11-5.el8.x86_64
-krb5-libs-1.18.2-27.el8_10.x86_64
-libverto-0.3.2-2.el8.x86_64
-gmp-6.1.2-11.el8.x86_64
-kernel-headers-4.18.0-553.5.1.el8_10.x86_64
-ima-evm-utils-1.3.2-12.el8.x86_64
-circle-gpg-keys-8-7.el8.4.noarch
-elfutils-default-yama-scope-0.190-2.el8.noarch
-file-libs-5.33-26.el8.x86_64
-python-srpm-macros-3-45.el8.noarch
-libunistring-0.9.9-3.el8.x86_64
-bzip2-1.0.6-26.el8.x86_64
-ca-certificates-2023.2.60_v7.0.306-80.0.el8_8.noarch
-publicsuffix-list-dafsa-20180723-1.el8.noarch
-audit-libs-3.1.2-1.el8.x86_64
-ncurses-6.1-10.20180224.el8.x86_64
-perl-srpm-macros-1-25.el8.noarch
-make-4.2.1-11.el8.x86_64
-libcom_err-1.45.6-5.el8.x86_64
-zip-3.0-23.el8.x86_64
-python3-pip-wheel-9.0.3-24.el8.noarch
-nettle-3.4.1-7.el8.x86_64
-rust-srpm-macros-5-2.el8.noarch
-libxml2-2.9.7-18.el8_10.1.x86_64
-elfutils-libelf-0.190-2.el8.x86_64
-rpm-4.14.3-31.el8.x86_64
-libedit-3.1-23.20170329cvs.el8.x86_64
-go-srpm-macros-2-17.el8.noarch
-pcre-8.42-6.el8.x86_64
+INFO backend.py:236:  audit-libs-3.1.2-1.el8.x86_64
+libfdisk-2.32.1-46.el8.x86_64
+libarchive-3.3.3-5.el8.x86_64
 rpm-build-libs-4.14.3-31.el8.x86_64
+sed-4.5-5.el8.x86_64
+libassuan-2.5.1-3.el8.x86_64
+ca-certificates-2023.2.60_v7.0.306-80.0.el8_8.noarch
+systemd-libs-239-82.el8_10.1.x86_64
+libdb-utils-5.3.28-42.el8_4.x86_64
+libffi-3.1-24.el8.x86_64
+libgcrypt-1.8.5-7.el8_6.x86_64
+openssl-libs-1.1.1k-12.el8_9.x86_64
+perl-srpm-macros-1-25.el8.noarch
+glibc-devel-2.28-251.el8_10.2.x86_64
+libedit-3.1-23.20170329cvs.el8.x86_64
+libacl-2.2.53-3.el8.x86_64
+openssh-clients-8.0p1-25.el8_10.x86_64
+tar-1.30-9.el8.x86_64
 libutempter-1.1.6-14.el8.x86_64
 npth-1.5-4.el8.x86_64
-cyrus-sasl-lib-2.1.27-6.el8_5.x86_64
-zstd-1.4.4-1.el8.x86_64
-openssl-libs-1.1.1k-12.el8_9.x86_64
-xml-common-0.6.3-50.el8.noarch
-rpm-build-4.14.3-31.el8.x86_64
-tpm2-tss-2.3.2-6.el8.x86_64
-gcc-8.5.0-22.el8_10.x86_64
-dwz-0.12-10.el8.x86_64
-circle-linux-release-8.10-1.el8.noarch
-libxcrypt-devel-4.1.1-6.el8.x86_64
-libfdisk-2.32.1-46.el8.x86_64
-less-530-2.el8_9.x86_64
-libcurl-7.61.1-34.el8.x86_64
-systemd-libs-239-82.el8.x86_64
-diffutils-3.6-6.el8.x86_64
-openldap-2.4.46-18.el8.x86_64
-libstdc++-8.5.0-22.el8_10.x86_64
-libffi-3.1-24.el8.x86_64
-libarchive-3.3.3-5.el8.x86_64
-sed-4.5-5.el8.x86_64
-libtasn1-4.13-4.el8_7.x86_64
-popt-1.18-1.el8.x86_64
-libmpc-1.1.0-9.1.el8.x86_64
-libgomp-8.5.0-22.el8_10.x86_64
-gnupg2-2.2.20-3.el8_6.x86_64
-bash-4.4.20-5.el8.x86_64
-python3-rpm-macros-3-45.el8.noarch
-cracklib-dicts-2.9.6-15.el8.x86_64
-libdb-5.3.28-42.el8_4.x86_64
-chkconfig-1.19.2-1.el8.x86_64
-expat-2.2.5-13.el8_10.x86_64
-libksba-1.3.5-9.el8_7.x86_64
-git-core-2.43.5-1.el8_10.x86_64
-libtool-ltdl-2.4.6-25.el8.x86_64
-libipt-1.6.1-8.el8.x86_64
-mpfr-3.1.6-1.el8.x86_64
-tar-1.30-9.el8.x86_64
-pam-1.3.1-33.el8.x86_64
-libcap-ng-0.7.11-1.el8.x86_64
-redhat-rpm-config-131-1.el8.noarch
-libcap-2.48-6.el8_9.x86_64
-cpp-8.5.0-22.el8_10.x86_64
-iso-codes-3.79-2.el8.noarch
-annobin-11.13-2.el8.x86_64
-libxcrypt-4.1.1-6.el8.x86_64
-grep-3.1-6.el8.x86_64
-unzip-6.0-46.el8.x86_64
-libpkgconf-1.4.2-1.el8.x86_64
-glibc-devel-2.28-251.el8_10.2.x86_64
-isl-0.16.1-6.el8.x86_64
-libsmartcols-2.32.1-46.el8.x86_64
-gzip-1.9-13.el8_5.x86_64
-libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64
-libsepol-2.9-3.el8.x86_64
-glibc-common-2.28-251.el8_10.2.x86_64
-libgcc-8.5.0-22.el8_10.x86_64
-gawk-4.2.1-4.el8.x86_64
-gcc-c++-8.5.0-22.el8_10.x86_64
-setup-2.12.2-9.el8.noarch
-buildsys-macros-el8-3.1-1.el8.circle.noarch
-gdb-headless-8.2-20.el8.x86_64
-libusbx-1.0.23-4.el8.x86_64
-libbabeltrace-1.5.4-4.el8.x86_64
-file-5.33-26.el8.x86_64
-ncurses-libs-6.1-10.20180224.el8.x86_64
-gdbm-libs-1.18-2.el8.x86_64
-cpio-2.12-11.el8.x86_64
-gcc-plugin-annobin-8.5.0-22.el8_10.x86_64
-gdbm-1.18-2.el8.x86_64
-binutils-2.30-123.el8.x86_64
-python3-setuptools-wheel-39.2.0-7.el8.noarch
-libzstd-1.4.4-1.el8.x86_64
-platform-python-3.6.8-62.el8_10.circle.1.x86_64
-lua-libs-5.3.4-12.el8.x86_64
-circle-linux-repos-8-7.el8.4.noarch
-curl-7.61.1-34.el8.x86_64
-coreutils-8.30-15.el8.x86_64
-ghc-srpm-macros-1.4.2-7.el8.noarch
-coreutils-common-8.30-15.el8.x86_64
-libsemanage-2.9-9.el8_6.x86_64
-elfutils-libs-0.190-2.el8.x86_64
 pkgconf-pkg-config-1.4.2-1.el8.x86_64
-libstdc++-devel-8.5.0-22.el8_10.x86_64
-which-2.21-20.el8.x86_64
-glibc-2.28-251.el8_10.2.x86_64
 ncurses-base-6.1-10.20180224.el8.noarch
-guile-2.0.14-7.el8.x86_64
-openssh-clients-8.0p1-24.el8.x86_64
-p11-kit-0.23.22-2.el8.x86_64
-glibc-all-langpacks-2.28-251.el8_10.2.x86_64
-libssh-config-0.9.6-14.el8.noarch
-p11-kit-trust-0.23.22-2.el8.x86_64
-python3-libs-3.6.8-62.el8_10.circle.1.x86_64
+libstdc++-8.5.0-22.el8_10.x86_64
+elfutils-0.190-2.el8.x86_64
+nettle-3.4.1-7.el8.x86_64
+kernel-headers-4.18.0-553.16.1.el8_10.x86_64
 glib2-2.56.4-162.el8.x86_64
 libuuid-2.32.1-46.el8.x86_64
-tzdata-2024a-1.el8.noarch
-ocaml-srpm-macros-5-4.el8.noarch
-pkgconf-1.4.2-1.el8.x86_64
-platform-python-setuptools-39.2.0-7.el8.noarch
-libpsl-0.20.2-6.el8.x86_64
-cracklib-2.9.6-15.el8.x86_64
-info-6.5-7.el8.x86_64
-libidn2-2.2.0-1.el8.x86_64
-libdb-utils-5.3.28-42.el8_4.x86_64
-bzip2-libs-1.0.6-26.el8.x86_64
-patch-2.7.6-11.el8.x86_64
-centpkg-minimal-2.0.0-2.el8.1.noarch
-python-rpm-macros-3-45.el8.noarch
-xz-5.2.4-4.el8_6.x86_64
-basesystem-11-5.el8.noarch
-libblkid-2.32.1-46.el8.x86_64
-xz-libs-5.2.4-4.el8_6.x86_64
-brotli-1.0.6-3.el8.x86_64
 zlib-1.2.11-25.el8.x86_64
-sqlite-libs-3.26.0-19.el8_9.x86_64
-libssh-0.9.6-14.el8.x86_64
-readline-7.0-10.el8.x86_64
-qt5-srpm-macros-5.15.3-1.el8.noarch
-keyutils-libs-1.5.10-9.el8.x86_64
-libpwquality-1.4.4-6.el8.x86_64
-filesystem-3.8-6.el8.x86_64
-openssh-8.0p1-24.el8.x86_64
-shadow-utils-4.6-22.el8.x86_64
-libattr-2.4.48-3.el8.x86_64
-efi-srpm-macros-3-3.el8.noarch
-gc-7.6.4-3.el8.x86_64
-elfutils-0.190-2.el8.x86_64
-libnghttp2-1.33.0-5.el8_9.x86_64
+cracklib-dicts-2.9.6-15.el8.x86_64
+libcom_err-1.45.6-5.el8.x86_64
 crypto-policies-20230731-1.git3177e06.el8.noarch
-libgcrypt-1.8.5-7.el8_6.x86_64
-gnutls-3.6.16-8.el8_9.3.x86_64
-findutils-4.6.0-22.el8.x86_64
-openblas-srpm-macros-2-2.el8.noarch
-pcre2-10.32-3.el8_6.x86_64
-libtirpc-1.1.4-10.el8.x86_64
-glibc-gconv-extra-2.28-251.el8_10.2.x86_64
-rpm-libs-4.14.3-31.el8.x86_64
-libassuan-2.5.1-3.el8.x86_64
-util-linux-2.32.1-46.el8.x86_64
-libgpg-error-1.31-1.el8.x86_64
+coreutils-common-8.30-15.el8.x86_64
+libusbx-1.0.23-4.el8.x86_64
+redhat-rpm-config-131-1.el8.noarch
+python-srpm-macros-3-45.el8.noarch
+gdb-headless-8.2-20.el8.x86_64
 glibc-headers-2.28-251.el8_10.2.x86_64
-lz4-libs-1.8.3-3.el8_4.x86_64
-libatomic_ops-7.6.2-3.el8.x86_64
+bzip2-libs-1.0.6-26.el8.x86_64
+glibc-2.28-251.el8_10.2.x86_64
+libcap-2.48-6.el8_9.x86_64
 libmount-2.32.1-46.el8.x86_64
-libselinux-2.9-8.el8.x86_64
+libverto-0.3.2-2.el8.x86_64
+chkconfig-1.19.2-1.el8.x86_64
+glibc-gconv-extra-2.28-251.el8_10.2.x86_64
+make-4.2.1-11.el8.x86_64
+gawk-4.2.1-4.el8.x86_64
 scl-utils-build-2.0.2-16.el8.x86_64
+python3-libs-3.6.8-62.el8_10.circle.1.x86_64
+binutils-2.30-123.el8.x86_64
+libxml2-2.9.7-18.el8_10.1.x86_64
+elfutils-libs-0.190-2.el8.x86_64
+qt5-srpm-macros-5.15.3-1.el8.noarch
+tpm2-tss-2.3.2-6.el8.x86_64
+setup-2.12.2-9.el8.noarch
+libgcc-8.5.0-22.el8_10.x86_64
+basesystem-11-5.el8.noarch
+cpio-2.12-11.el8.x86_64
+ghc-srpm-macros-1.4.2-7.el8.noarch
+annobin-11.13-2.el8.x86_64
+cpp-8.5.0-22.el8_10.x86_64
+circle-linux-repos-8-7.el8.4.noarch
+diffutils-3.6-6.el8.x86_64
+iso-codes-3.79-2.el8.noarch
+cracklib-2.9.6-15.el8.x86_64
+libtasn1-4.13-4.el8_7.x86_64
+libcurl-7.61.1-34.el8_10.2.x86_64
+libattr-2.4.48-3.el8.x86_64
+libmpc-1.1.0-9.1.el8.x86_64
+dwz-0.12-10.el8.x86_64
+gmp-6.1.2-11.el8.x86_64
+libxcrypt-devel-4.1.1-6.el8.x86_64
+filesystem-3.8-6.el8.x86_64
+gdbm-libs-1.18-2.el8.x86_64
+expat-2.2.5-13.el8_10.x86_64
+libtool-ltdl-2.4.6-25.el8.x86_64
+file-libs-5.33-26.el8.x86_64
+libtirpc-1.1.4-12.el8_10.x86_64
+libgpg-error-1.31-1.el8.x86_64
+centpkg-minimal-2.0.0-2.el8.1.noarch
+rpm-4.14.3-31.el8.x86_64
+gcc-8.5.0-22.el8_10.x86_64
+findutils-4.6.0-22.el8.x86_64
+libsemanage-2.9-9.el8_6.x86_64
+less-530-3.el8_10.x86_64
+libcap-ng-0.7.11-1.el8.x86_64
+openblas-srpm-macros-2-2.el8.noarch
+grep-3.1-6.el8.x86_64
+gzip-1.9-13.el8_5.x86_64
+xz-5.2.4-4.el8_6.x86_64
+publicsuffix-list-dafsa-20180723-1.el8.noarch
+keyutils-libs-1.5.10-9.el8.x86_64
+p11-kit-trust-0.23.22-2.el8.x86_64
+python-rpm-macros-3-45.el8.noarch
+circle-gpg-keys-8-7.el8.4.noarch
+libzstd-1.4.4-1.el8.x86_64
+bash-4.4.20-5.el8.x86_64
+libpkgconf-1.4.2-1.el8.x86_64
+guile-2.0.14-7.el8.x86_64
+shadow-utils-4.6-22.el8.x86_64
+circle-linux-release-8.10-1.el8.noarch
+buildsys-macros-el8-3.1-1.el8.circle.noarch
+ima-evm-utils-1.3.2-12.el8.x86_64
+libssh-config-0.9.6-14.el8.noarch
+gdbm-1.18-2.el8.x86_64
+file-5.33-26.el8.x86_64
+gcc-plugin-annobin-8.5.0-22.el8_10.x86_64
+libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64
+rpm-libs-4.14.3-31.el8.x86_64
+gcc-c++-8.5.0-22.el8_10.x86_64
+zip-3.0-23.el8.x86_64
+gnupg2-2.2.20-3.el8_6.x86_64
+brotli-1.0.6-3.el8.x86_64
+cyrus-sasl-lib-2.1.27-6.el8_5.x86_64
+glibc-all-langpacks-2.28-251.el8_10.2.x86_64
+libsigsegv-2.11-5.el8.x86_64
+ocaml-srpm-macros-5-4.el8.noarch
+sqlite-libs-3.26.0-19.el8_9.x86_64
+libipt-1.6.1-8.el8.x86_64
+libblkid-2.32.1-46.el8.x86_64
+unzip-6.0-46.el8.x86_64
+libnghttp2-1.33.0-6.el8_10.1.x86_64
+gc-7.6.4-3.el8.x86_64
+p11-kit-0.23.22-2.el8.x86_64
+openldap-2.4.46-19.el8_10.x86_64
+pkgconf-1.4.2-1.el8.x86_64
+libatomic_ops-7.6.2-3.el8.x86_64
+which-2.21-20.el8.x86_64
+efi-srpm-macros-3-3.el8.noarch
+gnutls-3.6.16-8.el8_9.3.x86_64
+libsepol-2.9-3.el8.x86_64
+glibc-common-2.28-251.el8_10.2.x86_64
+mpfr-3.1.6-1.el8.x86_64
+libksba-1.3.5-9.el8_7.x86_64
+libidn2-2.2.0-1.el8.x86_64
+libdb-5.3.28-42.el8_4.x86_64
+libstdc++-devel-8.5.0-22.el8_10.x86_64
+git-core-2.43.5-1.el8_10.x86_64
+pcre-8.42-6.el8.x86_64
+ncurses-6.1-10.20180224.el8.x86_64
+libselinux-2.9-8.el8.x86_64
+libpsl-0.20.2-6.el8.x86_64
+xz-libs-5.2.4-4.el8_6.x86_64
+krb5-libs-1.18.2-29.el8_10.x86_64
+python3-setuptools-wheel-39.2.0-8.el8_10.noarch
+readline-7.0-10.el8.x86_64
+platform-python-3.6.8-62.el8_10.circle.1.x86_64
+pkgconf-m4-1.4.2-1.el8.noarch
+tzdata-2024a-1.el8.noarch
+isl-0.16.1-6.el8.x86_64
+libsmartcols-2.32.1-46.el8.x86_64
+popt-1.18-1.el8.x86_64
+python3-pip-wheel-9.0.3-24.el8.noarch
+libpwquality-1.4.4-6.el8.x86_64
+platform-python-setuptools-39.2.0-8.el8_10.noarch
+bzip2-1.0.6-26.el8.x86_64
+rust-srpm-macros-5-2.el8.noarch
+lua-libs-5.3.4-12.el8.x86_64
+curl-7.61.1-34.el8_10.2.x86_64
+libbabeltrace-1.5.4-4.el8.x86_64
+patch-2.7.6-11.el8.x86_64
+lz4-libs-1.8.3-3.el8_4.x86_64
+libxcrypt-4.1.1-6.el8.x86_64
+elfutils-default-yama-scope-0.190-2.el8.noarch
+zstd-1.4.4-1.el8.x86_64
+pam-1.3.1-34.el8_10.x86_64
+python3-rpm-macros-3-45.el8.noarch
+openssh-8.0p1-25.el8_10.x86_64
+elfutils-libelf-0.190-2.el8.x86_64
+coreutils-8.30-15.el8.x86_64
+libssh-0.9.6-14.el8.x86_64
+libgomp-8.5.0-22.el8_10.x86_64
+go-srpm-macros-2-17.el8.noarch
+libunistring-0.9.9-3.el8.x86_64
+ncurses-libs-6.1-10.20180224.el8.x86_64
+xml-common-0.6.3-50.el8.noarch
+util-linux-2.32.1-46.el8.x86_64
+info-6.5-7.el8.x86_64
+rpm-build-4.14.3-31.el8.x86_64
+pcre2-10.32-3.el8_6.x86_64
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 INFO buildroot.py:494:  Mock Version: 3.5
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG buildroot.py:687:  kernel version == 4.18.0-513.24.1.el8_9.x86_64
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/fstab
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/yum/yum.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf/dnf.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/log/yum.log
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG buildroot.py:687:  kernel version == 4.18.0-553.16.1.el8_10.x86_64
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/log/yum.log
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.sxz24svv', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-117160-78761/root', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.yrsl6r6o', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-117160-78761/root
-DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-117160-78761/result
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/pki/mock
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-118306-81093/root', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-118306-81093/result
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/pki/mock
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf
 DEBUG package_manager.py:589:  configure DNF vars
 DEBUG util.py:622:  child environment: None
 DEBUG util.py:540:  Executing command: ['/usr/sbin/usermod', '-u', '993', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:443:  usermod: no changes
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/.initialized
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/.initialized
 INFO backend.py:392:  Running in chroot: ['uname -r']
 DEBUG util.py:622:  child environment: None
 DEBUG util.py:540:  Executing command: ['uname -r'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
-DEBUG util.py:445:  4.18.0-513.24.1.el8_9.x86_64
+DEBUG util.py:445:  4.18.0-553.16.1.el8_10.x86_64
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 INFO buildroot.py:494:  Mock Version: 3.5
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/mapper
-DEBUG buildroot.py:687:  kernel version == 4.18.0-513.24.1.el8_9.x86_64
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/fstab
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/yum/yum.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf/dnf.conf
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/log/yum.log
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/mapper
+DEBUG buildroot.py:687:  kernel version == 4.18.0-553.16.1.el8_10.x86_64
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/log/yum.log
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/proc
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
-DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux
-DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.t9nnlbso', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-117160-78761/root', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.qxzqd3w0', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
-DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-117160-78761/root
-DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-117160-78761/result
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/pki/mock
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/mnt/compose/mock/dist-circle8-build-118306-81093/root', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG util.py:622:  child environment: None
+DEBUG util.py:540:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:596:  Child return code was: 0
+DEBUG buildroot.py:198:  rootdir = /mnt/compose/mock/dist-circle8-build-118306-81093/root
+DEBUG buildroot.py:199:  resultdir = /mnt/compose/mock/dist-circle8-build-118306-81093/result
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/pki/mock
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/etc/dnf
 DEBUG package_manager.py:589:  configure DNF vars
 DEBUG buildroot.py:513:  removing 3 rpm db files
-DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/lib/rpm/__db.001
-DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/lib/rpm/__db.002
-DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-117160-78761/root/var/lib/rpm/__db.003
+DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/lib/rpm/__db.001
+DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/lib/rpm/__db.002
+DEBUG buildroot.py:518:  nuke_rpm_db: removing /mnt/compose/mock/dist-circle8-build-118306-81093/root/var/lib/rpm/__db.003
 DEBUG util.py:622:  child environment: None
 DEBUG util.py:540:  Executing command: ['/usr/sbin/userdel', '-f', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
@@ -1127,29 +1127,29 @@ DEBUG util.py:443:  useradd: warning: the home directory already exists.
 DEBUG util.py:443:  Not copying any file from skel directory into it.
 DEBUG util.py:443:  Creating mailbox file: File exists
 DEBUG util.py:596:  Child return code was: 0
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/RPMS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/RPMS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SPECS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SPECS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SRPMS
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SRPMS
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/SOURCES
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILD
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILD
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILDROOT
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/BUILDROOT
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/originals
-DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir/build/originals
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/builddir
-DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-117160-78761/root/.initialized
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/RPMS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/RPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SPECS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SPECS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SRPMS
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SRPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/SOURCES
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILD
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILD
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILDROOT
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/BUILDROOT
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/originals
+DEBUG file_util.py:20:  creating dir: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir/build/originals
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/builddir
+DEBUG file_util.py:30:  touching file: /mnt/compose/mock/dist-circle8-build-118306-81093/root/.initialized
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/shim-unsigned-x64-15.8-2.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/shim-unsigned-x64-15.8-2.el8.circle.1.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:445:  Updating / installing...
-DEBUG util.py:445:  shim-unsigned-x64-15.8-2.el8          ########################################
+DEBUG util.py:445:  shim-unsigned-x64-15.8-2.el8.circle.1 ########################################
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/shim-unsigned-x64-15.8-2.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/shim-unsigned-x64-15.8-2.el8.circle.1.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:445:  circle-boot-ca-cert.der
 DEBUG util.py:445:  dbx.esl
 DEBUG util.py:445:  sbat.circle.csv
@@ -1244,10 +1244,10 @@ DEBUG util.py:445:    -?, --help                     Show this help message
 DEBUG util.py:445:        --usage                    Display brief usage message
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-117160-78761/root/installation-homedir
-DEBUG package_manager.py:197:  ['/usr/bin/dnf', 'builddep', '--installroot', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/mnt/compose/mock/dist-circle8-build-117160-78761/root//builddir/build/SRPMS/shim-unsigned-x64-15.8-2.el8.src.rpm']
+DEBUG file_util.py:17:  ensuring that dir exists: /mnt/compose/mock/dist-circle8-build-118306-81093/root/installation-homedir
+DEBUG package_manager.py:197:  ['/usr/bin/dnf', 'builddep', '--installroot', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/mnt/compose/mock/dist-circle8-build-118306-81093/root//builddir/build/SRPMS/shim-unsigned-x64-15.8-2.el8.circle.1.src.rpm']
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/usr/bin/dnf', 'builddep', '--installroot', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/mnt/compose/mock/dist-circle8-build-117160-78761/root//builddir/build/SRPMS/shim-unsigned-x64-15.8-2.el8.src.rpm', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/mnt/compose/mock/dist-circle8-build-117160-78761/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/usr/bin/dnf', 'builddep', '--installroot', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/mnt/compose/mock/dist-circle8-build-118306-81093/root//builddir/build/SRPMS/shim-unsigned-x64-15.8-2.el8.circle.1.src.rpm', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/mnt/compose/mock/dist-circle8-build-118306-81093/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
 DEBUG util.py:443:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 DEBUG util.py:445:  Package findutils-1:4.6.0-22.el8.x86_64 is already installed.
 DEBUG util.py:445:  Package gcc-8.5.0-22.el8_10.x86_64 is already installed.
@@ -1262,7 +1262,7 @@ DEBUG util.py:445:   elfutils-libelf-devel     x86_64  0.190-2.el8              
 DEBUG util.py:445:   git                       x86_64  2.43.5-1.el8_10                        build   91 k
 DEBUG util.py:445:   openssl                   x86_64  1:1.1.1k-12.el8_9                      build  710 k
 DEBUG util.py:445:   openssl-devel             x86_64  1:1.1.1k-12.el8_9                      build  2.3 M
-DEBUG util.py:445:   pesign                    x86_64  0.112-27.el8                           build  182 k
+DEBUG util.py:445:   pesign                    x86_64  0.112-27.el8.private                   build  186 k
 DEBUG util.py:445:  Installing dependencies:
 DEBUG util.py:445:   crypto-policies-scripts   noarch  20230731-1.git3177e06.el8              build   83 k
 DEBUG util.py:445:   efivar-libs               x86_64  37-4.el8                               build  107 k
@@ -1270,9 +1270,9 @@ DEBUG util.py:445:   emacs-filesystem          noarch  1:26.1-11.el8            
 DEBUG util.py:445:   git-core-doc              noarch  2.43.5-1.el8_10                        build  3.1 M
 DEBUG util.py:445:   groff-base                x86_64  1.22.3-18.el8                          build  1.0 M
 DEBUG util.py:445:   keyutils-libs-devel       x86_64  1.5.10-9.el8                           build   47 k
-DEBUG util.py:445:   krb5-devel                x86_64  1.18.2-27.el8_10                       build  561 k
+DEBUG util.py:445:   krb5-devel                x86_64  1.18.2-29.el8_10                       build  561 k
 DEBUG util.py:445:   libcom_err-devel          x86_64  1.45.6-5.el8                           build   38 k
-DEBUG util.py:445:   libkadm5                  x86_64  1.18.2-27.el8_10                       build  187 k
+DEBUG util.py:445:   libkadm5                  x86_64  1.18.2-29.el8_10                       build  187 k
 DEBUG util.py:445:   libselinux-devel          x86_64  2.9-8.el8                              build  199 k
 DEBUG util.py:445:   libsepol-devel            x86_64  2.9-3.el8                              build   86 k
 DEBUG util.py:445:   libverto-devel            x86_64  0.3.2-2.el8                            build   17 k
@@ -1339,7 +1339,7 @@ DEBUG util.py:445:  Total download size: 26 M
 DEBUG util.py:445:  Installed size: 74 M
 DEBUG util.py:445:  Downloading Packages:
 DEBUG util.py:445:  --------------------------------------------------------------------------------
-DEBUG util.py:445:  Total                                            56 MB/s |  26 MB     00:00     
+DEBUG util.py:445:  Total                                            62 MB/s |  26 MB     00:00     
 DEBUG util.py:445:  Running transaction check
 DEBUG util.py:445:  Transaction check succeeded.
 DEBUG util.py:445:  Running transaction test
@@ -1355,9 +1355,9 @@ DEBUG util.py:445:    git-2.43.5-1.el8_10.x86_64
 DEBUG util.py:445:    git-core-doc-2.43.5-1.el8_10.noarch                                           
 DEBUG util.py:445:    groff-base-1.22.3-18.el8.x86_64                                               
 DEBUG util.py:445:    keyutils-libs-devel-1.5.10-9.el8.x86_64                                       
-DEBUG util.py:445:    krb5-devel-1.18.2-27.el8_10.x86_64                                            
+DEBUG util.py:445:    krb5-devel-1.18.2-29.el8_10.x86_64                                            
 DEBUG util.py:445:    libcom_err-devel-1.45.6-5.el8.x86_64                                          
-DEBUG util.py:445:    libkadm5-1.18.2-27.el8_10.x86_64                                              
+DEBUG util.py:445:    libkadm5-1.18.2-29.el8_10.x86_64                                              
 DEBUG util.py:445:    libselinux-devel-2.9-8.el8.x86_64                                             
 DEBUG util.py:445:    libsepol-devel-2.9-3.el8.x86_64                                               
 DEBUG util.py:445:    libverto-devel-0.3.2-2.el8.x86_64                                             
@@ -1418,22 +1418,22 @@ DEBUG util.py:445:    perl-parent-1:0.237-1.el8.noarch
 DEBUG util.py:445:    perl-podlators-4.11-1.el8.noarch                                              
 DEBUG util.py:445:    perl-threads-1:2.21-2.el8.x86_64                                              
 DEBUG util.py:445:    perl-threads-shared-1.58-2.el8.x86_64                                         
-DEBUG util.py:445:    pesign-0.112-27.el8.x86_64                                                    
+DEBUG util.py:445:    pesign-0.112-27.el8.private.x86_64                                            
 DEBUG util.py:445:    zlib-devel-1.2.11-25.el8.x86_64                                               
 DEBUG util.py:445:  Complete!
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: rpm -qa --root '/mnt/compose/mock/dist-circle8-build-117160-78761/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\n' with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
+DEBUG util.py:540:  Executing command: rpm -qa --root '/mnt/compose/mock/dist-circle8-build-118306-81093/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\n' with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
 DEBUG util.py:445:  crypto-policies-20230731-1.git3177e06.el8.noarch 1706433915 73739 f5350fcb81397355a67b05aec85de418 installed
-DEBUG util.py:445:  python3-setuptools-wheel-39.2.0-7.el8.noarch 1685288354 347736 c13a1a6c4640aa4d4b5925d2e02ca0fc installed
+DEBUG util.py:445:  python3-setuptools-wheel-39.2.0-8.el8_10.noarch 1724060265 347738 aaad1dcaa3de29721c02e2463ae0b63e installed
 DEBUG util.py:445:  python-rpm-macros-3-45.el8.noarch 1685426985 4325 1775b642779401fd067ed0048a7c93bc installed
 DEBUG util.py:445:  tzdata-2024a-1.el8.noarch 1707499959 1780398 ec7806116de1a1fe28178812df7cf930 installed
 DEBUG util.py:445:  qt5-srpm-macros-5.15.3-1.el8.noarch 1667936913 0 39bb90fc9a8cbd24a94e2131bfc3f63d installed
 DEBUG util.py:445:  pkgconf-m4-1.4.2-1.el8.noarch 1627273396 14187 0e5151d64aef3ea00ed2fb52674c90f2 installed
 DEBUG util.py:445:  openblas-srpm-macros-2-2.el8.noarch 1627309158 104 549f0cbfd279f768b6940d3b43949648 installed
 DEBUG util.py:445:  ncurses-base-6.1-10.20180224.el8.noarch 1706536536 290089 1ff8ed578a4a5abc7b185e97387a8934 installed
-DEBUG util.py:445:  kernel-headers-4.18.0-553.5.1.el8_10.x86_64 1718398721 5653504 1c0e9caa6799bdcea4092acf323e270e installed
+DEBUG util.py:445:  kernel-headers-4.18.0-553.16.1.el8_10.x86_64 1723371338 5653463 909754353ad29aac60ecf623695629ab installed
 DEBUG util.py:445:  ghc-srpm-macros-1.4.2-7.el8.noarch 1627146805 414 3466f1e9975e7b24112032cc8dcca2b6 installed
 DEBUG util.py:445:  circle-linux-release-8.10-1.el8.noarch 1718883580 26128 a49428ae8376e9271892d934356dae6a installed
 DEBUG util.py:445:  setup-2.12.2-9.el8.noarch 1685033745 724747 9945585a0ef9c20f2269385726675f1f installed
@@ -1480,7 +1480,7 @@ DEBUG util.py:445:  libgomp-8.5.0-22.el8_10.x86_64 1718757297 331983 d5abc7fc22b
 DEBUG util.py:445:  brotli-1.0.6-3.el8.x86_64 1628694687 1521876 e125d5f6dacfab0999514d697f6befe5 installed
 DEBUG util.py:445:  libatomic_ops-7.6.2-3.el8.x86_64 1627153762 76398 36be4e6b1a48f5d4fd9c138f2109fca5 installed
 DEBUG util.py:445:  libedit-3.1-23.20170329cvs.el8.x86_64 1627282397 236055 07044197c6b062dd434bdefa4a840c8c installed
-DEBUG util.py:445:  libnghttp2-1.33.0-5.el8_9.x86_64 1707306926 168244 98770c52d8f168e7fa9b7d352c5feea0 installed
+DEBUG util.py:445:  libnghttp2-1.33.0-6.el8_10.1.x86_64 1721323650 168244 adeb72f81d06981e5de349b11386e250 installed
 DEBUG util.py:445:  pkgconf-1.4.2-1.el8.x86_64 1627273396 61895 a70e2eee4856145e817e299777b97eb4 installed
 DEBUG util.py:445:  libxcrypt-devel-4.1.1-6.el8.x86_64 1636811462 24771 e19733a485bd2e038eb8972d28948c2f installed
 DEBUG util.py:445:  libsigsegv-2.11-5.el8.x86_64 1627278133 45586 5486f368e6b3b63c125c4d4a574ff279 installed
@@ -1488,10 +1488,10 @@ DEBUG util.py:445:  libsmartcols-2.32.1-46.el8.x86_64 1718293552 248442 c4d65896
 DEBUG util.py:445:  libverto-0.3.2-2.el8.x86_64 1667960448 26789 c7d26447f7107088dd7392163f7d0545 installed
 DEBUG util.py:445:  openssl-libs-1:1.1.1k-12.el8_9.x86_64 1707313244 3774114 fe97ef71d311e041817b53c29129b0fa installed
 DEBUG util.py:445:  ca-certificates-2023.2.60_v7.0.306-80.0.el8_8.noarch 1695383525 2332584 f0a988a4f9e164e6f5b795413701fd22 installed
-DEBUG util.py:445:  krb5-libs-1.18.2-27.el8_10.x86_64 1718690717 2242384 f47f7345fbe380e7e1057a3364707efe installed
+DEBUG util.py:445:  krb5-libs-1.18.2-29.el8_10.x86_64 1723657730 2242448 5001f3e34e7b14285a03134a5db830d1 installed
 DEBUG util.py:445:  libblkid-2.32.1-46.el8.x86_64 1718293552 343936 e41fa3e4a15b3af43075963d24b92856 installed
-DEBUG util.py:445:  systemd-libs-239-82.el8.x86_64 1718393060 4690446 c5fa6a881c70e8adf14fa845cb3c8243 installed
-DEBUG util.py:445:  platform-python-setuptools-39.2.0-7.el8.noarch 1685288354 2930525 5f50365620b659df39692a0dbb6fe77e installed
+DEBUG util.py:445:  systemd-libs-239-82.el8_10.1.x86_64 1721325922 4694526 99acf55b2ef6cfa2ac29dc4087f25267 installed
+DEBUG util.py:445:  platform-python-setuptools-39.2.0-8.el8_10.noarch 1724060265 2930482 7e8f4fa0dc1482ae0875296da7ffae4c installed
 DEBUG util.py:445:  python3-libs-3.6.8-62.el8_10.circle.1.x86_64 1718603847 32434384 7a40fe540499cac949edcddb04bc7521 installed
 DEBUG util.py:445:  gcc-8.5.0-22.el8_10.x86_64 1718757297 61807009 64aa1b7ae8906fb9f1203a9fa38a61c4 installed
 DEBUG util.py:445:  cracklib-2.9.6-15.el8.x86_64 1627278309 234871 1421d2bedbb9e07c1d33cf6fbeece9d5 installed
@@ -1502,9 +1502,9 @@ DEBUG util.py:445:  annobin-11.13-2.el8.x86_64 1706234866 1005406 65104911185504
 DEBUG util.py:445:  libusbx-1.0.23-4.el8.x86_64 1627279243 154147 b62b6d69d06920fcd4729848cf5da228 installed
 DEBUG util.py:445:  libbabeltrace-1.5.4-4.el8.x86_64 1667955932 546475 d29d68337c7b06a3ca822a713f53f72a installed
 DEBUG util.py:445:  util-linux-2.32.1-46.el8.x86_64 1718293552 11575315 ae48f40cf92545b63b6381914286dbd7 installed
-DEBUG util.py:445:  openssh-clients-8.0p1-24.el8.x86_64 1718122379 2569635 c68b0ecf42f0d8b529d6116bfcbc19b7 installed
-DEBUG util.py:445:  openldap-2.4.46-18.el8.x86_64 1636804751 1006611 9250ad8e3c0265d773053eedc3b578d7 installed
-DEBUG util.py:445:  libcurl-7.61.1-34.el8.x86_64 1717933265 597632 270bfec311cc093b50b1290a43c7b02f installed
+DEBUG util.py:445:  openssh-clients-8.0p1-25.el8_10.x86_64 1723655404 2569683 8bab4cd99e0841a3d22144e891b66e03 installed
+DEBUG util.py:445:  openldap-2.4.46-19.el8_10.x86_64 1721251031 1006683 1f6a43a98ec24b2e1eae702248dc0a11 installed
+DEBUG util.py:445:  libcurl-7.61.1-34.el8_10.2.x86_64 1724231809 597624 53ce1c0f167ccc67e7b4b11fec1fc417 installed
 DEBUG util.py:445:  git-core-2.43.5-1.el8_10.x86_64 1719343333 33337359 142afb356d10ea97ada09bc97f2a2b60 installed
 DEBUG util.py:445:  guile-5:2.0.14-7.el8.x86_64 1627150050 12095486 548d74b7a3a87da061aa7b1841855ae5 installed
 DEBUG util.py:445:  rpm-4.14.3-31.el8.x86_64 1717934034 2087790 b4957a048c282adbfee8e762a63217d7 installed
@@ -1521,7 +1521,7 @@ DEBUG util.py:445:  pcre2-utf32-10.32-3.el8_6.x86_64 1659457079 583438 12a19e74c
 DEBUG util.py:445:  pcre2-devel-10.32-3.el8_6.x86_64 1659457079 1922619 c11a3bf58638732f62fa3789a6d027b5 installed
 DEBUG util.py:445:  libzstd-devel-1.4.4-1.el8.x86_64 1627281139 152846 f9ce38f41bad6710110c729a3c4ca287 installed
 DEBUG util.py:445:  libsepol-devel-2.9-3.el8.x86_64 1636811421 129692 2e2a079d872cae992e721ac06b513e58 installed
-DEBUG util.py:445:  libkadm5-1.18.2-27.el8_10.x86_64 1718690717 224352 1d06d88dc5056fa1b9ba3bdbfe775131 installed
+DEBUG util.py:445:  libkadm5-1.18.2-29.el8_10.x86_64 1723657730 224368 956d95db56f98adc3c22dadbcee6fed4 installed
 DEBUG util.py:445:  keyutils-libs-devel-1.5.10-9.el8.x86_64 1637150331 33454 a646a5bf7efa22202410a2a40de5c4a0 installed
 DEBUG util.py:445:  groff-base-1.22.3-18.el8.x86_64 1627282210 4031698 92ad12048e43de1a319297ce01b6ef01 installed
 DEBUG util.py:445:  perl-Digest-MD5-2.55-396.el8.x86_64 1623144220 56494 aade98f9ff32dc8ee6ece9393d2a1692 installed
@@ -1604,7 +1604,7 @@ DEBUG util.py:445:  zstd-1.4.4-1.el8.x86_64 1627281139 1534466 dbfdcde1ca05cc7ef
 DEBUG util.py:445:  nettle-3.4.1-7.el8.x86_64 1636811248 572273 e23402656337f09ac211fbb3fc9dbdfb installed
 DEBUG util.py:445:  bzip2-1.0.6-26.el8.x86_64 1627276736 92236 0ba14ddb3dd509d8261fcbf2f508e90e installed
 DEBUG util.py:445:  diffutils-3.6-6.el8.x86_64 1627280376 1371491 50647db1f1e0572190e8f2867eba80e8 installed
-DEBUG util.py:445:  less-530-2.el8_9.x86_64 1712846140 328458 6f7060cb8839d3746a9d1ef5d4360c17 installed
+DEBUG util.py:445:  less-530-3.el8_10.x86_64 1721247475 328474 c20c591ee7e7d510936454deac4a721c installed
 DEBUG util.py:445:  cpio-2.12-11.el8.x86_64 1652234375 967584 12e682f5e6dc26dd39721681b2a05b8a installed
 DEBUG util.py:445:  gc-7.6.4-3.el8.x86_64 1627146467 215064 a733d9be3ab1f37e229ba90325154103 installed
 DEBUG util.py:445:  libipt-1.6.1-8.el8.x86_64 1627154682 98343 cf3d9320585e3e9f558860d17392f103 installed
@@ -1616,7 +1616,7 @@ DEBUG util.py:445:  libtool-ltdl-2.4.6-25.el8.x86_64 1627280362 68274 7b0c2b69c3
 DEBUG util.py:445:  ncurses-6.1-10.20180224.el8.x86_64 1706536536 589460 032d14bac0fa203cd9c435350c0c43f7 installed
 DEBUG util.py:445:  coreutils-8.30-15.el8.x86_64 1685243023 6121280 10fe587a70b463f2ad9b7d38ce16e16c installed
 DEBUG util.py:445:  libdb-5.3.28-42.el8_4.x86_64 1632400726 1903352 3e3b0f5d2f7c3bfe18166ddfebf37c5b installed
-DEBUG util.py:445:  libtirpc-1.1.4-10.el8.x86_64 1718389829 228742 3685fef2d4a37fc3667213498f9d34c8 installed
+DEBUG util.py:445:  libtirpc-1.1.4-12.el8_10.x86_64 1721242982 228758 fdf3e5b526297da2aebfbf062ae5c969 installed
 DEBUG util.py:445:  libmount-2.32.1-46.el8.x86_64 1718293552 398290 d53063d025f0ae38a54cc39fa6911bf5 installed
 DEBUG util.py:445:  libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64 1627274917 126778 8c8e88996f3fd080fa99a7afb5d3f5d2 installed
 DEBUG util.py:445:  platform-python-3.6.8-62.el8_10.circle.1.x86_64 1718603847 41222 23c5d4d03ab62e4e82c8ccdf3ef60bec installed
@@ -1625,14 +1625,14 @@ DEBUG util.py:445:  gzip-1.9-13.el8_5.x86_64 1651042569 352930 ee6fc2395029327c8
 DEBUG util.py:445:  cracklib-dicts-2.9.6-15.el8.x86_64 1627278309 9815016 3bbe88d0d88e3531f8c9bf8e4291d344 installed
 DEBUG util.py:445:  libutempter-1.1.6-14.el8.x86_64 1627279388 51373 0e1d67f375ffe6124a0f6a872ec4fc51 installed
 DEBUG util.py:445:  ima-evm-utils-1.3.2-12.el8.x86_64 1628997584 137507 92fadbd34613619a7d15045132656369 installed
-DEBUG util.py:445:  pam-1.3.1-33.el8.x86_64 1718301174 2647851 19580d1e4811ea27a10bff0df26490e1 installed
+DEBUG util.py:445:  pam-1.3.1-34.el8_10.x86_64 1721319684 2648337 93188ae27fcce403d38e9c2f6c5057f6 installed
 DEBUG util.py:445:  gcc-plugin-annobin-8.5.0-22.el8_10.x86_64 1718757297 49384 d6fb4e24fe1becf07a4a6add6dca433d installed
 DEBUG util.py:445:  glib2-2.56.4-162.el8.x86_64 1716398940 12279792 21e29a365a8e26a0ae319f1f5000ef58 installed
 DEBUG util.py:445:  libfdisk-2.32.1-46.el8.x86_64 1718293552 438874 a4c7e1aba79fbbe9a16da97ef828872d installed
-DEBUG util.py:445:  openssh-8.0p1-24.el8.x86_64 1718122379 1937800 00a284c217248d6c5da616d5149c68de installed
+DEBUG util.py:445:  openssh-8.0p1-25.el8_10.x86_64 1723655404 1937880 44297c1cdc4be2c161977b2d37930f97 installed
 DEBUG util.py:445:  cyrus-sasl-lib-2.1.27-6.el8_5.x86_64 1645631815 726066 fe9ea3f6c4840176ddfbe7f5498a3098 installed
 DEBUG util.py:445:  libssh-0.9.6-14.el8.x86_64 1718383147 521895 f00e4b153da250d81ed097e0ab0a9c1c installed
-DEBUG util.py:445:  curl-7.61.1-34.el8.x86_64 1717933265 700901 e892093ef7e4eb8b29e17cb0806d6d12 installed
+DEBUG util.py:445:  curl-7.61.1-34.el8_10.2.x86_64 1724231809 700917 090cdb290eb8a774a5648df261a1c00c installed
 DEBUG util.py:445:  libdb-utils-5.3.28-42.el8_4.x86_64 1632400726 370399 4f4e3a2e0366eb298d01ebfa0989bc9a installed
 DEBUG util.py:445:  libarchive-3.3.3-5.el8.x86_64 1685080616 838367 f97f38215a0e06ae369f6fce3196e5cf installed
 DEBUG util.py:445:  rpm-libs-4.14.3-31.el8.x86_64 1717934034 739552 b014e72bc79f1edd4c0d81e29bd3addd installed
@@ -1650,7 +1650,7 @@ DEBUG util.py:445:  openssl-1:1.1.1k-12.el8_9.x86_64 1707313244 1185701 a46928b3
 DEBUG util.py:445:  libverto-devel-0.3.2-2.el8.x86_64 1667960448 26296 600e49c18444b947ca157184883ed40b installed
 DEBUG util.py:445:  libselinux-devel-2.9-8.el8.x86_64 1685085693 192379 e0c6cb1e72339e1fdfa75f4b2390d0b4 installed
 DEBUG util.py:445:  libcom_err-devel-1.45.6-5.el8.x86_64 1667931077 17058 5114b0f93f6c1ed759c073e5ad87210c installed
-DEBUG util.py:445:  krb5-devel-1.18.2-27.el8_10.x86_64 1718690717 1128199 61e6e3fe8ebc3633a6f036a980a99ff6 installed
+DEBUG util.py:445:  krb5-devel-1.18.2-29.el8_10.x86_64 1723657730 1128239 b132f93e18d64736a3a65c01d3c6ba08 installed
 DEBUG util.py:445:  perl-Digest-1.17-395.el8.noarch 1623144212 26685 3dd2d7ddb3a6efb1ef3f81ae24664cc8 installed
 DEBUG util.py:445:  perl-Data-Dumper-2.167-399.el8.x86_64 1623222015 106323 0afb9e50347351c4a73645f37a4783e7 installed
 DEBUG util.py:445:  perl-URI-1.73-3.el8.noarch 1627104679 216452 33424d7769e7b4e1ae849e45deff3ffc installed
@@ -1677,64 +1677,64 @@ DEBUG util.py:445:  emacs-filesystem-1:26.1-11.el8.noarch 1703585223 0 2e3032945
 DEBUG util.py:445:  git-2.43.5-1.el8_10.x86_64 1719343333 87937 462e37f4ac310463642424587a2e9202 installed
 DEBUG util.py:445:  crypto-policies-scripts-20230731-1.git3177e06.el8.noarch 1706433915 190780 449a312666273380b2586322be48d6c0 installed
 DEBUG util.py:445:  nss-3.90.0-7.el8_10.x86_64 1718720228 2062779 3e4ae888e192f98a00dbc4f2eec30e58 installed
-DEBUG util.py:445:  pesign-0.112-27.el8.x86_64 1686210179 987651 3139991fe4d7c68ab07273e19057e1a6 installed
+DEBUG util.py:445:  pesign-0.112-27.el8.private.x86_64 1724221215 987739 99d46f7f86a19bc49e3927774c27c7e7 installed
 DEBUG util.py:445:  elfutils-libelf-devel-0.190-2.el8.x86_64 1717935789 35225 4106cd34681e6e95814360f6af67eb02 installed
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
 DEBUG backend.py:803:  Copying packages to result dir
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/mnt/compose/mock/dist-circle8-build-117160-78761/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/mnt/compose/mock/dist-circle8-build-118306-81093/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:168:  kill orphans
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
 DEBUG util.py:622:  child environment: None
-DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-117160-78761-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:540:  Executing command: ['/bin/umount', '-n', '-l', '/mnt/compose/mock/dist-circle8-build-118306-81093-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
 DEBUG util.py:596:  Child return code was: 0
