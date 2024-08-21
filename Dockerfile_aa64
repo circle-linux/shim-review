@@ -1,0 +1,21 @@
+FROM --platform=linux/arm64 circlelinuxos/circlelinux-arm64:8.10
+ENV SHIM_VERSION 15.8-2.el8.circle.1
+
+COPY rpmmacros /root/.rpmmacros
+COPY shim-unsigned-aarch64-$SHIM_VERSION.src.rpm /
+RUN rpm -ivh shim-unsigned-aarch64-$SHIM_VERSION.src.rpm
+RUN dnf install --releasever=8.10 -y dnf-plugins-core rpm-build circle-linux-release  gcc-toolset-12-binutils
+RUN dnf builddep -y --enablerepo=powertools --enablerepo=devel --releasever=8.10 /builddir/build/SPECS/shim-unsigned-aarch64.spec
+RUN rpmbuild -bb /builddir/build/SPECS/shim-unsigned-aarch64.spec
+COPY shimaa64.efi /
+RUN rpm2cpio /builddir/build/RPMS/aarch64/shim-unsigned-aarch64-$SHIM_VERSION.aarch64.rpm | cpio -diu
+RUN ls -l /*.efi ./usr/share/shim/$SHIM_VERSION/*/shim*.efi
+
+RUN hexdump -Cv ./usr/share/shim/$SHIM_VERSION/aa64/shimaa64.efi > built-aa64.hex
+RUN hexdump -Cv /shimaa64.efi > orig-aa64.hex
+RUN diff -u orig-aa64.hex built-aa64.hex
+RUN pesign -h -P -i /usr/share/shim/$SHIM_VERSION/aa64/shimaa64.efi
+RUN pesign -h -P -i /shimaa64.efi
+RUN /opt/rh/gcc-toolset-12/root/usr/bin/objdump -h /usr/share/shim/$SHIM_VERSION/aa64/shimaa64.efi
+
+RUN sha256sum /usr/share/shim/$SHIM_VERSION/aa64/shimaa64.efi /shimaa64.efi
